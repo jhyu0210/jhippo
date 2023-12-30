@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "jhippo-production.up.railway.app",
+        hostname: "jhippo-jhippo-env.up.railway.app",
         pathname: "**",
       },
       //   // https://vercel.com/joyclad/jhippo/Fk5pk7MHdGQKR5pc761v4HUurUxs
