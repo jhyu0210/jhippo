@@ -1,13 +1,25 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // this is technically deprecated but works perfectly.
-    // if you'd like to see the remotePatterns version, I'm happy to merge a PR
-    domains: [
-      'localhost',
-      'digitalhippo-production.up.railway.app',
+    // domains: [
+    //   "localhost",
+    //   "https://jhippo-joyclad.vercel.app",
+    //   // "vercel.com/joyclad/jhippo/Fk5pk7MHdGQKR5pc761v4HUurUxs",
+    // ],
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "3000",
+      },
+      {
+        protocol: "https",
+        hostname: "jhippo-production.up.railway.app",
+        pathname: "**",
+      },
+      //   // https://vercel.com/joyclad/jhippo/Fk5pk7MHdGQKR5pc761v4HUurUxs
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
