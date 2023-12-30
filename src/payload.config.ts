@@ -27,7 +27,7 @@ export default buildConfig({
     bundler: webpackBundler(),
     // bundler: viteBundler(),
     meta: {
-      titleSuffix: "- DigitalHippo",
+      titleSuffix: "- JHippo",
       favicon: "/favicon.ico",
       ogImage: "/thumbnail.jpg",
     },
