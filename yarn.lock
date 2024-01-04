@@ -6939,6 +6939,13 @@ mkdirp@^1.0.4, mkdirp@1.0.4:
   resolved "https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.38.0.tgz"
   integrity sha512-11Fkh6yzEmwx7O0YoLxeae0qEGFwmyPRlVxpg7oF9czOOCB/iCjdJrG5I67da5WiXK3YJCxoz9TJFE8Tfq/v9A==
 
+mongod@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/mongod/-/mongod-2.0.0.tgz"
+  integrity sha512-J1it0yFsLH+y4EIBByEDPKUu+2AQlEMoRc4ugtKRlppQM6dh4oFEIJlpuCE1Cixt33Ni1gZQ+eaizWTqBc5MTA==
+  dependencies:
+    promise-queue "^2.2.3"
+
 mongodb-connection-string-url@^2.6.0:
   version "2.6.0"
   resolved "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.6.0.tgz"
@@ -8428,6 +8435,11 @@ process@^0.11.10, process@0.11.10:
   version "0.11.10"
   resolved "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
+
+promise-queue@^2.2.3:
+  version "2.2.5"
+  resolved "https://registry.npmjs.org/promise-queue/-/promise-queue-2.2.5.tgz"
+  integrity sha512-p/iXrPSVfnqPft24ZdNNLECw/UrtLTpT3jpAAMzl/o5/rDsGCPo3/CQS2611flL6LkoEJ3oQZw7C8Q80ZISXRQ==
 
 prompts@2.4.2:
   version "2.4.2"
